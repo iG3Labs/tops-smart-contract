@@ -225,19 +225,6 @@ npx hardhat size-contracts  # Check contract sizes
 npx hardhat clean       # Clean artifacts and cache
 ```
 
-## 🚨 Security Considerations
-
-### Audit Status
-⚠️ **Security audit in progress** - Do not use in production without thorough security review.
-
-### Key Security Areas
-- **Fund Security**: All token transfers and balance management
-- **Time-Lock Bypass**: Withdrawal request timing mechanisms
-- **Role Management**: Proper role assignment and revocation
-- **Cross-Contract Calls**: IG3Reward → IG3Staking interactions
-- **Reentrancy**: All state-changing functions protected
-- **Access Control**: Role-based permission enforcement
-
 ## 📄 License
 
 MIT License - See [LICENSE](LICENSE) file for details
