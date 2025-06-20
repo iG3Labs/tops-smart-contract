@@ -1,0 +1,21 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+.idea
+assets/csv-input/*.json
+assets/csv-output/*.json
+assets/csv-output/*.csv
+
+# Hardhat files
+cache
+artifacts
+whitelist.csv
+receipt.json
+eth-extract-test.csv
+eth-refunds.csv
+.cursor
+memory-bank
+pnpm-lock.yaml
